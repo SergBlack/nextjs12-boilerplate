@@ -1,0 +1,9 @@
+.eslintrc.json
+./next.config.js
+
+.next
+.husky
+
+public
+node_modules
+
