@@ -1,10 +1,8 @@
-import Link from 'next/link';
 import type { NextPage } from 'next';
 import { Form, Select, InputNumber, Switch, Slider, Button } from 'antd';
-import { SmileFilled } from '@ant-design/icons';
 
 const FormItem = Form.Item;
-const Option = Select.Option;
+const { Option } = Select;
 
 const content = {
   marginTop: '100px',
@@ -14,12 +12,6 @@ const Home: NextPage = () => {
   return (
     <div style={content}>
       <div className="text-center mb-5">
-        <Link href="#">
-          <a className="logo mr-0">
-            <SmileFilled size={48} />
-          </a>
-        </Link>
-
         <p className="mb-0 mt-3 text-disabled">Welcome to the world !</p>
       </div>
 
