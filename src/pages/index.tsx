@@ -8,13 +8,12 @@ const content = {
   marginTop: '100px',
 };
 
-const Home: NextPage = () => {
+const Main: NextPage = () => {
   return (
     <div style={content}>
       <div className="text-center mb-5">
         <p className="mb-0 mt-3 text-disabled">Welcome to the world !</p>
       </div>
-
       <div>
         <Form layout="vertical">
           <FormItem label="Input Number" labelCol={{ span: 8 }} wrapperCol={{ span: 8 }}>
@@ -54,4 +53,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Main;
